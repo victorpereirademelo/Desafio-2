@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: 'Open sans', sans-serif;
+}
+
+.adjust-table {
+    margin: 50px auto;
+    max-width: 1150px;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 1150px;
+    margin-bottom: -30px;
+}
+
+.adjust-date {
+    margin-right: 5px;
+    border-radius: 5px;
+    border: black;
+}
+
+.adjust-button {
+    margin-right: 2px;
+    border-radius: 5px;
+    border: black;
+}
+
+.adjust-button:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+.adjust-input-select {
+    margin-left: 3px;
+    border-radius: 5px;
+    border: black;
+}
+
+.adjust-checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+.img {
+    width: 25px;
+    border-radius: 20px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.ellipsis {
+    max-width: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.risk {
+    text-decoration: line-through;
+    color: dimgray;
+}
+
+.pagination_link {
+    background-color: #212529;
+    color: dimgray;
+    width: 80px;
+}
+
+.active {
+    color: white;
+}
